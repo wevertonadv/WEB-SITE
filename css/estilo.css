@@ -17,7 +17,9 @@ body{
     color: white;
     padding: 20px; /*tamanho dos item */
     text-decoration: none;}
-
+.menu ul li a:hover {
+    background-color: #1483a883;
+}
 .img1{
     width: 1295px;
     height: 300px;}
@@ -41,7 +43,7 @@ h1{
     width: 35%;
     font-size: 15pt;
     height: 140px;
-    border-radius: 22%;
+    border-radius: 3%;
 
 }
 
@@ -53,18 +55,19 @@ h1{
     width: 35%;
     font-size: 15pt;
     height: 140px;
-    border-radius: 22%;
+    border-radius: 3%;
     margin-left: 2%;
 }
 
 
-
-
-
-.inicio{
+.imagem_inicio{
     background-image: url(../imagens/fundo.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+
+.inicio{
     padding: 6%;
     color: rgb(255, 255, 255);
     font-size: 15pt;
@@ -72,6 +75,19 @@ h1{
     padding-bottom: 15%;
     background-color:#202020da;}
 
+#btn {
+    background-color: #57CDF3;
+    padding: 15px;
+    border-radius:10%;
+    margin: 2%;
+    font-size:10pt;
+    width: 8%;
+    cursor: pointer;
+    display: inline-block;
+    border: none; }
+#btn:hover{
+    background-color: rgb(136, 255, 0);
+}
 
 
 
