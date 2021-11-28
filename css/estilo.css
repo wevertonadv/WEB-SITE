@@ -4,7 +4,6 @@
 body{
     background-color: rgb(255, 255, 255); }
 
-
 .menu{
     padding: 2%;
     background-color: #57CDF3;
@@ -27,8 +26,6 @@ h1{
     margin-bottom: 2%;}
 
 
-
-
 .imagem_inicio{
     background-image: url(../imagens/fundo.jpg);
     background-repeat: no-repeat;
@@ -48,6 +45,24 @@ h1{
 .conteudo{
     margin: 2%;
     background-color: rgb(255, 255, 255);}
+
+.parte2{
+    padding:6%;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    font-size: 10pt;
+    background-color: #faf9f9;
+    font-family: monospace;}
+
+
+.parte3{
+    font-size: 11pt;
+    background-color: #ffffff;
+    padding:6%;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    font-family: monospace;}
+
 
 .caixa1{
     background-color:#57ccf3;
@@ -109,12 +124,106 @@ h1{
 
   
 .formulario{
-    color: #57CDF3;
-    size: 20pt;}
+color: #57CDF3;
+margin-left:2%;
+padding-top: 2%;
+padding-bottom: 2%;
+size: 20pt;}
 
+fieldset{
+border: none;
+width:300px;
+height:250px;}
 
+#usuario{
+margin: 2%;
+font-size: 15pt;
+background-color: #57ccf3;
+color: #fff;
+border-radius: 20px;
+padding: 10px;
+font-family:Arial, Helvetica, sans-serif;}
 
+#cNome{
+margin-bottom: 10px;
+height: 25px;
+border-color: #57ccf3;
+border-radius:10px;}
 
+#cSobrenome{
+margin-bottom: 10px;
+height: 25px;
+border-color: #57ccf3;
+border-radius:10px;}
+
+#cNascimento{
+margin-bottom: 10px;
+height: 25px;
+border-color: #57ccf3;
+border-radius:10px;}
+
+#cEmail{
+margin-bottom: 10px;
+height: 25px;
+border-color: #57ccf3;
+border-radius:10px;}
+
+#cNumero{
+margin-bottom: 10px;
+height: 25px;
+border-color: #57ccf3;
+border-radius:10px;}
+
+#endereco{
+margin: 2%;
+font-size: 15pt;
+background-color: #57ccf3;
+color: #fff;
+border-radius: 20px;
+padding: 10px;
+font-family:Arial, Helvetica, sans-serif;}
+
+#cCep{
+margin-bottom: 10px;
+height: 25px;
+border-color: #57ccf3;
+border-radius:10px;}
+
+#cEstado{
+margin-bottom: 10px;
+height: 25px;
+border-color: #57ccf3;
+border-radius:10px;}
+
+#cCidade{
+margin-bottom: 10px;
+height: 25px;
+border-color: #57ccf3;
+border-radius:10px;}
+
+#cBairro{
+margin-bottom: 10px;
+height: 25px;
+border-color: #57ccf3;
+border-radius:10px;}
+
+#cLogadouro{
+margin-bottom: 10px;
+height: 25px;
+border-color: #57ccf3;
+border-radius:10px;}
+
+#nNumero{
+margin-bottom: 10px;
+height: 25px;
+border-color: #57ccf3;
+border-radius:10px;}
+
+#cComplemento{
+margin-bottom: 10px;
+height: 25px;
+border-color: #57ccf3;
+border-radius:10px;}
 
 footer{
     width: 100%;
