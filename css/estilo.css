@@ -46,6 +46,13 @@ h1{
     margin: 2%;
     background-color: rgb(255, 255, 255);}
 
+.parte4{
+background-color:#ffffff;
+font-size: 17pt;
+padding: 5%;
+padding-left: 6%;}
+
+
 .parte2{
     padding:6%;
     padding-top: 200px;
@@ -141,7 +148,7 @@ font-size: 15pt;
 background-color: #57ccf3;
 color: #fff;
 border-radius: 20px;
-padding: 10px;
+padding: 5px;
 font-family:Arial, Helvetica, sans-serif;}
 
 #cNome{
@@ -180,7 +187,7 @@ font-size: 15pt;
 background-color: #57ccf3;
 color: #fff;
 border-radius: 20px;
-padding: 10px;
+padding: 5px;
 font-family:Arial, Helvetica, sans-serif;}
 
 #cCep{
@@ -223,6 +230,15 @@ border-radius:10px;}
 margin-bottom: 10px;
 height: 25px;
 border-color: #57ccf3;
+border-radius:10px;}
+
+#enviar{
+background-color: #57f3b2;
+border: none;
+padding: 10px;
+margin-top: 10px;
+margin-left: 40px;
+cursor: pointer;
 border-radius:10px;}
 
 footer{
